@@ -1,25 +1,6 @@
-# Ember-cli-flash-message
+# Ember CLI Flash Message
 
-This README outlines the details of collaborating on this Ember application.
+Ember CLI Flash Message is an ember cli addon for creating and displaying flash messages. It is currently a private projected based on the em-notify addon and ember-flash-message project.
 
-## Installation
+`npm install ember-cli-flash-message` will not work yet lol.
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
-
-## Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://iamstef.net/ember-cli/](http://iamstef.net/ember-cli/).
