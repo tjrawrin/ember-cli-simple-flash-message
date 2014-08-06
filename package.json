@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-flash-message",
+  "name": "csgocfgr-flash-message",
   "version": "0.0.1",
   "private": true,
   "description": "Ember CLI addon for a rails like flash message. Based on em-notify and ember-flash-message projects.",
