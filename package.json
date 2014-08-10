@@ -1,15 +1,15 @@
 {
-  "name": "csgocfgr-flash-message",
+  "name": "ember-cli-simple-flash-message",
   "version": "0.0.1",
   "private": true,
-  "description": "Ember CLI addon for a rails like flash message. Based on em-notify and ember-flash-message projects.",
+  "description": "Ember CLI addon for a rails like flash message. Very basic and minimal, based off the em-notify and ember-flash-message projects.",
   "main": "index.js",
   "scripts": {
     "test": "ember test"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://bitbucket.org/tjwarr/ember-cli-simple-flash-message"
   },
   "ember-addon": {
     "paths": [

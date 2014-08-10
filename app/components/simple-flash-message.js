@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import Queue from '../flash-message-queue';
+import Queue from '../message-queue';
 
 export default Ember.Component.extend({
   tagName: 'div',

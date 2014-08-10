@@ -3,9 +3,9 @@
 var path = require('path');
 var fs   = require('fs');
 
-function EmberCLIFlashMessage(project) {
+function EmberCLISimpleFlashMessage(project) {
   this.project = project;
-  this.name    = 'Ember CLI Flash Message';
+  this.name    = 'Ember CLI Simple Flash Message';
 }
 
 function unwatchedTree(dir) {
@@ -15,7 +15,7 @@ function unwatchedTree(dir) {
   };
 }
 
-EmberCLIFlashMessage.prototype.treeFor = function treeFor(name) {
+EmberCLISimpleFlashMessage.prototype.treeFor = function treeFor(name) {
   var treePath = path.relative(process.cwd(), __dirname);
 
   if (name === 'templates') {
@@ -29,8 +29,8 @@ EmberCLIFlashMessage.prototype.treeFor = function treeFor(name) {
   }
 };
 
-EmberCLIFlashMessage.prototype.included = function included(app) {
+EmberCLISimpleFlashMessage.prototype.included = function included(app) {
   this.app = app;
 };
 
-module.exports = EmberCLIFlashMessage;
+module.exports = EmberCLISimpleFlashMessage;
