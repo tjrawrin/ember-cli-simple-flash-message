@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import Message from './mixins/flash-message';
+import Message from './mixins/simple-flash-message';
 
 export default Ember.ArrayProxy.extend({
   content: Ember.A(),
