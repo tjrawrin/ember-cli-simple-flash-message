@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/tjwarr/ember-cli-simple-flash-message"
+    "url": "https://github.com/tjwarrin/ember-cli-simple-flash-message"
   },
   "ember-addon": {
     "paths": [
@@ -18,7 +18,10 @@
     "main": "index.js"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "csgocfgr",
+    "flash",
+    "message"
   ],
   "author": "Timothy Warrington",
   "license": "MIT",
