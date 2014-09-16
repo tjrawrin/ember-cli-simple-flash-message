@@ -44,7 +44,6 @@ export default Ember.Component.extend({
 
   actions: {
     dismissFlashMessage: function() {
-      console.log('testing click');
       this.get('queue').removeMessage();
     }
   }

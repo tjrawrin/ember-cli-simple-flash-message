@@ -3,7 +3,7 @@ import Message from './mixins/simple-flash-message';
 
 export default Ember.ArrayProxy.extend({
   content: Ember.A(),
-  interval: 120000,
+  interval: 6000,
 
   queueDidChange: function() {
     var duration = this.get('content.firstObject.duration') || this.get('interval');
