@@ -6,10 +6,17 @@ export default Ember.ArrayProxy.extend({
   interval: 6000,
 
   queueDidChange: function() {
-    var duration = this.get('content.firstObject.duration') || this.get('interval');
+    var duration = this.get('interval');
+    var content = this.get('content');
 
     this.arrayContentDidChange();
-    Ember.run.debounce(this, this.removeMessage, duration);
+
+    if (content.length > 1) {
+      this.removeMessage();
+      Ember.run.debounce(this, this.removeMessage, duration);
+    } else {
+      Ember.run.debounce(this, this.removeMessage, duration);
+    }
   }.observes('content.@each'),
 
   pushMessage: function(message, type, duration) {
