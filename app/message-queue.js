@@ -24,8 +24,8 @@ export default Ember.ArrayProxy.extend({
       Message.create({
         message: message,
         type: type,
-        duration: duration
-      })
+        duration: duration,
+      }),
     );
   },
 
@@ -35,5 +35,4 @@ export default Ember.ArrayProxy.extend({
     this.arrayContentWillChange();
     this.removeObject(currentMessage);
   },
-
 }).create();

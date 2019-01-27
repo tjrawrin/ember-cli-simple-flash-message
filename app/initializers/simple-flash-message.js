@@ -9,10 +9,12 @@ export default {
       Queue.pushMessage(message, type, duration);
     };
 
-    app.register('simpleFlashMessage:main', simpleFlashMessage, { instantiate: false });
+    app.register('simpleFlashMessage:main', simpleFlashMessage, {
+      instantiate: false,
+    });
 
     Ember.A(['route', 'controller', 'view']).forEach(function(place) {
       app.inject(place, 'simpleFlashMessage', 'simpleFlashMessage:main');
     });
-  }
+  },
 };

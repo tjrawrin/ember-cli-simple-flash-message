@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-simple-flash-message",
+  "name": "ember_cli_simple_flash_message",
   "version": "0.0.1",
   "private": true,
   "description": "Ember CLI addon for a rails like flash message. Very basic and minimal, based off the em-notify and ember-flash-message projects.",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tjwarrin/ember-cli-simple-flash-message"
+    "url": "https://github.com/tjrawrin/ember-cli-simple-flash-message"
   },
   "ember-addon": {
     "paths": [
@@ -23,7 +23,7 @@
     "flash",
     "message"
   ],
-  "author": "Timothy Warrington",
+  "author": "",
   "license": "MIT",
   "devDependencies": {
     "body-parser": "^1.2.0",
